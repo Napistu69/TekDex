@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
+import { Wordmark } from './components/Wordmark';
 import { AboutPage } from './pages/AboutPage';
 import { ExtractPage } from './pages/ExtractPage';
 import { LibraryPage } from './pages/LibraryPage';
@@ -8,7 +9,7 @@ import { PlannerPage } from './pages/PlannerPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { TimersPage } from './pages/TimersPage';
 import { useAppState } from './state/AppState';
-import { AFFILIATION_DISCLAIMER, APP_NAME } from './appConfig';
+import { AFFILIATION_DISCLAIMER } from './appConfig';
 
 export default function App() {
   const { ready, error } = useAppState();
@@ -17,7 +18,9 @@ export default function App() {
     return (
       <div className="loading">
         <div className="spinner" aria-hidden />
-        <h1>{APP_NAME}</h1>
+        <h1>
+          <Wordmark />
+        </h1>
         <p className="lede">Loading species data…</p>
         <p className="disclaimer">{AFFILIATION_DISCLAIMER}</p>
       </div>

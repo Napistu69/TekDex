@@ -49,4 +49,6 @@ This app is also MIT-licensed. The cadon copyright and MIT permission text are i
 
 Headings use Cinzel and the interface uses Manrope (SIL Open Font License 1.1).
 
+The helix emblem — app icons, maskable icons, favicon, splash screens, and the link-preview image — is original TekTribe art. It does not include third-party logos or official creature artwork.
+
 Timer math is checked against the bundled `values.json` fields and against public figures from the [ARK wiki (Breeding, Imprinting)](https://ark.wiki.gg/wiki/Breeding) and publicly documented calculator results. TekDex is not affiliated with Dododex or the ARK wiki.
