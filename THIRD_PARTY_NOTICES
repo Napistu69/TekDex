@@ -1,0 +1,37 @@
+THIRD-PARTY NOTICES — TekDex
+=====================================
+
+This file is required reading if you distribute this app. It is not legal advice.
+
+1. ARK Smart Breeding (calculation engine, library/export formats, values files)
+   Copyright (c) 2015 cadon
+   License: MIT License (see LICENSE)
+   Source: https://github.com/cadon/ARKStatsExtractor
+
+   The TypeScript stat formula, extraction solver, breeding probabilities,
+   .asb JSON field mapping, ASA export .ini parser, and the bundled
+   values.json / ASA-values.json / serverMultipliers.json files are a port
+   or redistribution of work from ARK Smart Breeding, used under the MIT
+   License. The original copyright notice and permission text are included
+   in LICENSE.
+
+2. Creature values and official multipliers
+   Numerical species stats shipped in public/data/ come from the ARK Smart
+   Breeding values files (MIT, cadon) and, upstream, from community
+   extraction of factual game numbers (Project Purlovia / Project Obelisk:
+   https://github.com/arkutils/Obelisk — no license file was present in that
+   repository when this project was prepared). These are factual game
+   numbers, not Studio Wildcard artwork or official logos.
+
+   ARK: Survival Evolved, ARK: Survival Ascended, and related marks are
+   trademarks of Studio Wildcard. This app is not affiliated with, endorsed
+   by, or sponsored by Studio Wildcard or the ARK team.
+
+3. Fonts
+   Cinzel and Manrope are licensed under the SIL Open Font License 1.1
+   and are pulled from the @fontsource packages at build time.
+   https://scripts.sil.org/OFL
+
+4. Other npm packages
+   React, Vite, vite-plugin-pwa, Vitest, and related tools keep their own
+   licenses in node_modules/<package>/LICENSE (not shipped in the source zip).
