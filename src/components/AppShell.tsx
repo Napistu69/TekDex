@@ -1,5 +1,6 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { AFFILIATION_DISCLAIMER, APP_NAME } from '../appConfig';
+import { AFFILIATION_DISCLAIMER } from '../appConfig';
+import { Wordmark } from './Wordmark';
 
 const tabs = [
   { to: '/', label: 'Extract', icon: extractIcon },
@@ -68,9 +69,9 @@ export function AppShell() {
     <div className="app-shell">
       <header className="app-header">
         <div className="header-left">
-          <img className="brand-mark" src="/favicon.svg" alt="" width={36} height={36} />
+          <img className="brand-mark" src="/icons/icon-192.png" alt="" width={36} height={36} />
           <div className="brand-text">
-            <span className="app-title">{APP_NAME}</span>
+            <Wordmark className="app-title" />
           </div>
         </div>
         <div className="header-right">

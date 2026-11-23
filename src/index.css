@@ -101,19 +101,22 @@ button, input, select, textarea { font-family: inherit; font-size: 1rem; }
 
 .brand-text { min-width: 0; }
 
+.wordmark {
+  position: relative;
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.wordmark-tek { color: #00d4ff; }
+.wordmark-dex { color: #00ff88; }
+
 .app-title {
   display: block;
-  font-family: var(--font-display);
   font-size: 1.1rem;
-  font-weight: 700;
-  line-height: 1.15;
-  background: linear-gradient(135deg, var(--color-cyan), var(--color-emerald));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .placeholder-chip, .chip {
